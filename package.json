@@ -1,0 +1,19 @@
+{
+  "name": "hubot-mention-metrics",
+  "version": "0.0.1",
+  "description": "A hubot script for mention metrics",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kakakakakku/hubot-mention-metrics.git"
+  },
+  "author": "kakakakakku",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kakakakakku/hubot-mention-metrics/issues"
+  },
+  "homepage": "https://github.com/kakakakakku/hubot-mention-metrics"
+}
