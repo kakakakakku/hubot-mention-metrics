@@ -48,6 +48,9 @@ postMetric = (robot, metricName) ->
   robot.http(mackerelApiUrlMetrics)
     .header('X-Api-Key', process.env.HUBOT_MACKEREL_API_KEY)
     .get() (err, res, body) ->
+      if res.statusCode isnt 200
+        callTsdbApi(robot, metricName, 1)
+        return
       response = JSON.parse body
       callTsdbApi(robot, metricName, response.metrics[response.metrics.length - 1].value + 1)
 
