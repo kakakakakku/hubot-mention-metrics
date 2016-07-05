@@ -20,5 +20,5 @@ After that, add `hubot-mention-metrics` to your `external-scripts.json`.
 
 This packege uses the following environment variables.
 
-* HUBOT_MACKEREL_API_KEY - API key for Mackerel
-* HUBOT_MACKEREL_SERVICE_NAME - Service Name for Mackerel
+* `HUBOT_MACKEREL_API_KEY` - API key for Mackerel
+* `HUBOT_MACKEREL_SERVICE_NAME` - Service Name for Mackerel
